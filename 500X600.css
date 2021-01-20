@@ -1,0 +1,209 @@
+html,
+body {
+  font-family: "Roboto", "Proxima Nova", "Open Sans", "PT Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.container {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*border: 0.5px solid black;*/
+}
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 37px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.logowrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 20px;
+}
+.bankholder {
+  height: 22px;
+  position: absolute;
+  left: 0px;
+  display: flex;
+  align-items: center;
+}
+#bank_logo {
+  height: 100%;
+  object-fit: contain;
+}
+#yap {
+  position: absolute;
+  right: 0;
+  height: 26px;
+}
+.visaholder {
+  height: 12px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  align-items: center;
+}
+.completewrap {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0 0;
+}
+.completewrapchild {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 20px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+  padding: 0 0 8px 0;
+}
+.payment {
+  position: relative;
+  float: left;
+  font-size: 12px;
+  color: #373844;
+  margin: 0;
+}
+.cancelpayment {
+  position: absolute;
+  right: 0px;
+  font-size: 9px;
+  color: #0193fd;
+  margin: 0;
+}
+.swipetopayiconwrap {
+  position: relative;
+  width: 100%;
+  height: 144px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0 16px 0;
+}
+.swipetopayicon {
+  position: relative;
+  width: 144px;
+  height: 144px;
+}
+
+.infomessagewrap {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.infomessage {
+  position: relative;
+  font-size: 14px;
+  color: #373844;
+  margin: 0;
+  line-height: 1.5;
+}
+.expirewrapper {
+  position: relative;
+  width: 100%;
+  float: left;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0 0 0;
+}
+.expireinfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  color: #ff6c47;
+}
+.expire {
+  margin: 0;
+}
+.switchwrap {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  margin: 55px 0 0 0;
+}
+.switchbtn {
+  width: 240px;
+  height: 32px;
+  font-size: 12px;
+  -webkit-appearance: none;
+  color: #fff;
+  background-color: #109afd;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switchbtn:active {
+  background-color: #0088e9;
+  transform: translate(0, 0.5px);
+}
+.switchbtn:hover {
+  background-color: #0193fd;
+  box-shadow: 0 0px 6px 0 rgba(68, 149, 255, 0.5);
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f8fb;
+}
+.footerlogowrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 215px;
+  height: 20px;
+}
+.partnerwrap {
+  position: absolute;
+  height: 12px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+}
+.partnerlogo {
+  height: 100%;
+  object-fit: contain;
+}
+.visapci {
+}
+.copyright {
+  position: absolute;
+  right: 0px;
+}

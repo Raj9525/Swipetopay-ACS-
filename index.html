@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 299px)" href="250X400.css">
+    <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 389px)" href="300X400.css">
+    <link rel="stylesheet" media="screen and (min-width: 390px) and (max-width: 499px)" href="390X400.css">
+    <link rel="stylesheet" media="screen and (min-width: 500px) and (max-width: 599px)" href="500X600.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 699px)" href="600X400.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px) and (max-width:1365px)" href="700-1365.css">
+    <link rel="stylesheet" media="screen and (min-width: 1366px) and (max-width:1439px)" href="1366X768.css">
+    <link rel="stylesheet" media="screen and (min-width: 1440px)" href="1440X900.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logowrapper">
+                <div class="bankholder">
+                    <img src="img/sbm.svg" id="bank_logo" />
+                </div>
+                <img src="img/YAP.svg" id="yap" />
+            </div>
+        </div>
+
+        <div class="completewrap">
+            <div class="completewrapchild">
+                <p class="payment">Complete payment</p>
+                <a href="#" class="cancelpayment">Cancel Transaction</a>
+            </div>
+        </div>
+
+        <div class="swipetopayiconwrap">
+            <img class="swipetopayicon" src="img/swipetopay.svg" alt="">
+        </div>
+        <div class="infomessagewrap">
+            <p class="infomessage">Processing Transaction...</br>Please do not press back button or refresh page</p>
+        </div>
+
+        <div class="expirewrapper" id="expirewrapper">
+            <div class="expireinfo" id="expireinfo">
+                <p class="expire">Page will expire in <span id="minutes2"></span>:<span id="seconds2"></span> minutes
+                </p>
+            </div>
+        </div>
+
+        <div class="switchwrap">
+            <button class="switchbtn">Switch back to OTP</button>
+        </div>
+    </div>
+
+    <div id="footer" class="footer fixed">
+        <div class="footerlogowrapper">
+            <div class="partnerwrap">
+                <img src="img/Linq.svg" id="partnerlogo" class="partnerlogo" />
+            </div>
+            <img src="img/Visa n PCI.svg" class="visapci" />
+            <img src="img/Copyright.svg" class="copyright">
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
